@@ -1,0 +1,16 @@
+footer {
+    height: 100px;
+    margin-top: 50px;
+    background-color: transparent;
+    padding-top: 30px;
+    box-sizing: border-box;
+    span {
+        display: block;
+        width: 180px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 30px;
+        border-bottom: 2px solid #4cfbd2d8;
+        color: #8892b0;
+    }
+}

@@ -1,0 +1,91 @@
+.nav {
+    width: 650px;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    display: flex;
+    padding-right: 30px;
+    justify-content: end;
+    box-sizing: border-box;
+    .active {
+        color: rgb(136, 246, 231);
+    }
+    span {
+        margin-left: 20px;
+        color: rgb(136, 246, 231);
+        font-family: 'Roboto Mono', monospace;
+        font-size: 14px;
+        cursor: pointer;
+        a {
+            text-decoration: none;
+            color: #909cb9;
+            margin-left: 5px;
+        }
+        a:hover {
+            color: rgb(136, 246, 231);
+            transition: 0.7s;
+        } 
+    }
+    .display_none {
+        visibility: hidden;
+        border: 1px solid red;
+    }
+    .nav_link__pdf {
+        text-decoration: none;
+        color: rgb(136, 246, 231);
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 14px;
+        line-height: 50px;
+        border-radius: 5px;
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 13px;
+        border: 1px solid rgb(136, 246, 231);
+    }
+    .nav_link__pdf:hover {
+        background-color: rgba(135, 245, 230, 0.237);
+        transition: 1s;
+    }
+}
+
+@media(max-width: 800px) {
+    .nav {
+        position: absolute;
+        margin-right: -350px;
+        transition: 1s;
+        right: 0;
+        width: 350px;
+        height: 100vh;
+        color: white;  
+        padding-top: 50px;
+        padding-right: 0px;
+        background-color: #0a192f;
+        box-sizing: border-box;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr; 
+        gap: 8px 8px;
+        .active {
+            color: rgb(136, 246, 231);
+        }
+        .nav_wrapper_link {
+            width: 100%;
+            height: 50px;
+            padding-left: 100px;
+        }
+        .nav_link__pdf {
+           margin: 0;
+           margin-left: 20px;
+        }
+    }
+    .nav_open {
+        margin-right: 0px;
+        transition: 1s;
+    }
+}
+
+
+

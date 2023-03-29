@@ -1,0 +1,105 @@
+.portfolio {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 1000px;
+    .portfolio_arrow {
+        width: 115px;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        .arrow {
+            width: 20px;
+        }
+        a {
+            margin: 0;
+            margin-top: 9px;
+            text-decoration: none;
+            color: #ccd6f6;
+        }
+        a:hover {
+            color: #64ffda;
+        }
+    }
+    .portfolio_stack_list {
+        margin-left: 5px;
+        margin-bottom: 80px;
+        width: 60%;
+        list-style: none;
+        padding-left: 0px;
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 8px 8px; 
+        .stack_list_item {
+            font-size: 16px;
+            font-family: 'Roboto Mono', monospace;
+            color: #8892b0;
+        }
+        .stack_list_item:before {
+            content: ">";
+            color: #64ffda;
+            margin-right: 5px;
+
+        }
+    }
+    h2 {
+        margin-left: 0px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0px;
+    }
+    span {
+        display: inline-block;
+        margin-top: 25px;
+        color: #ccd6f6;
+        a {
+            text-decoration: none;
+            color: #ccd6f6;
+            margin-left: 10px;
+        }
+        a:hover {
+            color: #64ffda;
+        }
+    }
+}
+
+.portfolio_subtitle {
+        color: #ccd6f6;
+        font-size: 23px;
+        margin: 0;
+        &::before {
+            content: "-";
+            margin-right: 5px;
+            color: #64ffda;
+        }
+}
+
+@media(max-width: 1000px) {
+    .portfolio {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media(max-width: 550px) {
+  .portfolio {
+    padding: 5px;
+    width: 100%;
+    .portfolio_info {
+        .portfolio_subtitle {
+            font-size: 20px;
+        }
+    }
+    .portfolio_stack_list {
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 8px 8px; 
+        width: 100%;
+      }
+  }
+}
