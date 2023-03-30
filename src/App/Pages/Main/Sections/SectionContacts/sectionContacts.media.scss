@@ -1,0 +1,23 @@
+@media(max-width: 550px) {
+    #section_contacts {
+        width: 100%;
+        .contacts_title {
+            span {
+                font-size: 16px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media(max-width: 415px) {
+    #section_contacts {
+        .contacts_title {
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+}

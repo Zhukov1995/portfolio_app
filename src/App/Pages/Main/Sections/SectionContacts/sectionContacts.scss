@@ -1,0 +1,31 @@
+#section_contacts {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    height: 200px;
+    text-align: center;
+    line-height: 40px;
+    .contacts_title {
+        text-align: center;
+        span {
+            color: rgb(136, 246, 231);
+            line-height: 20px;
+            font-size: 18px;
+            font-family: 'Roboto Mono', monospace;
+        }
+        h2 {
+            color: #ccd6f6;
+            margin: 0;
+            margin-left: 5px;
+            font-size: 30px;
+            display: inline;
+            min-width: 60px;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: #8892b0;
+        display: block;
+    }
+}

@@ -1,10 +1,12 @@
 import { useDispatch } from 'react-redux';
 import { setTargetProject } from '../../Store/actions';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { forwardRef } from 'react';
 import Folder from './folder.svg';
 import './portfolio-card.scss';
 
-const PortfolioCard = ({item}) => {
+export const PortfolioCard = forwardRef(({item},ref) => {
 
 const dispatch = useDispatch();
 
@@ -13,7 +15,7 @@ const stackList = item.stack.map((item,index) => {
 })
 
     return (
-        <Link to="/portfolio" className='link_router'>
+        <Link ref={ref} to="/portfolio" className='link_router'>
             <div className='portfolio_card' onClick={() => dispatch(setTargetProject(item))}>
                 <img src={Folder} alt='folder-img'/>
                 <h3>{item.title}</h3>
@@ -24,6 +26,6 @@ const stackList = item.stack.map((item,index) => {
             </div>
         </Link>
     )
-}
+})
 
-export default PortfolioCard;
+export const MPortfolioCard = motion(PortfolioCard);

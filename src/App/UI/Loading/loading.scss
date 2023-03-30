@@ -1,0 +1,25 @@
+.loading {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 42%;
+    left: 47%;
+    transition: all 0.5s ease;
+    transform: rotate(0deg);
+    animation: move 3s infinite linear;
+}
+
+@keyframes move {
+    0% {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+    50% {
+      transform: rotate(180deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: rotate(360deg);
+      opacity: 0;
+    }
+  }

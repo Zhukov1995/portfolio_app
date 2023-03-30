@@ -1,0 +1,60 @@
+@media(max-width:1150px) {
+    #section_about {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 450px;
+    }
+}
+
+@media(max-width:950px) {
+    #section_about {
+        width: 90%;
+    }
+}
+
+@media(max-width: 750px) {
+    #section_about {
+        width: 95%;
+        .flex_about {
+            display: flex;
+            flex-flow: column;
+            .about {
+                p {
+                    width: 100%;
+                }
+            }
+            .wrapper_img {
+                height: 250px;
+                width: 200px;
+                margin: 0 auto;
+                margin-top: 0px;
+            }
+        }
+        .about_learning {
+            h2 {
+                margin-top: 20px;
+            }
+        }
+        .about_skills {
+            ul {
+                grid-template-columns: 1fr 1fr 1fr; 
+                grid-template-rows: 1fr 1fr 1fr 1fr; 
+            }
+        }
+    }
+}
+
+@media(max-width: 415px) {
+    #section_about {
+        .about_learning {
+            h2 {
+                font-size: 20px;
+            }
+        }
+        .about_skills {
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+}

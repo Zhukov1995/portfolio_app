@@ -3,12 +3,16 @@
   margin: 0 auto;
   padding-top: 80px;
   font-family: 'Inter', sans-serif;
-  // border: 1px solid white;
   .wrapper_content {
     max-width: 1000px;
-    // padding: 0px 100px;
     margin: 0 auto;
+    transition: 1s;
   }
+}
+
+.blur {
+  filter: blur(2px);
+  transition: 1s;
 }
 
 @media(max-width: 1150px) {

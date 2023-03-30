@@ -1,0 +1,22 @@
+#section_work {
+    width: 70%;
+    margin-right: 30%;
+    margin-top: 250px;
+    .work_item {
+        h3 {
+            color: #ccd6f6;
+            margin: 0;
+        }
+        span {
+            color: #8892b0;
+            line-height: 25px;
+            padding-left: 10px;
+            font-size: 15px;
+            font-family: 'Roboto Mono', monospace;
+        }
+        p {
+            color: #8892b0;
+            font-size: 16px;
+        }
+    }
+}

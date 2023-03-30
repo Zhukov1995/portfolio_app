@@ -1,0 +1,77 @@
+#section_about {
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 400px;
+    .flex_about {
+        display: flex;
+        .about {
+            p {
+                margin: 0;
+                margin-bottom: 20px;
+                width: 90%;
+            }
+        }
+        .wrapper_img {
+            height: 250px;
+            z-index: 2;
+            margin-top: 30px;
+            border-radius: 5px;
+            background-color: #4cfbd2d8;
+            .about_img {
+                display: inline;
+                width: 200px;
+                height: auto;
+                max-height: 250px;
+                border-radius: 5px;
+                z-index: 1;
+                opacity: 0.6;
+            }
+        }
+        
+        .wrapper_img:hover {
+            background-color: transparent;
+            .about_img {
+                opacity: 1;
+            }
+        }
+    }
+    .about_learning {
+        h2 {
+            color: #ccd6f6;
+            margin: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                font-size: 16px;
+                line-height: 25px;
+                color: #8892b0;
+            }
+        }
+    }
+    .about_skills {
+        h2 {
+            color: #ccd6f6;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr; 
+            grid-template-rows: 1fr 1fr 1fr; 
+            li {
+                font-size: 16px;
+                line-height: 30px;
+                font-family: 'Roboto Mono', monospace;
+                color: #8892b0;
+            }
+            li:before {
+                content: ">";
+                height: 2px;
+                color: #64ffda;
+                margin-right: 5px;
+            }
+        }
+    }
+}

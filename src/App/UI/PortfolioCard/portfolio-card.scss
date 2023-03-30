@@ -1,5 +1,5 @@
 .portfolio_card {
-    max-width: 320px;
+    width: 320px;
     height: 350px;
     background-color: #112240;
     padding: 25px;
@@ -45,14 +45,14 @@
 }
 
 .portfolio_card:hover {
-    background-color: #112240bd;
-    transform: scale(1.02);
+    transform: translateY(-8px);
+    transition: 0.5s;
     h3 {
         color: #64ffda;
     }
 }
 
-@media(max-width: 404px) {
+@media(max-width: 415px) {
     .portfolio_card {
         h3 {
             font-size: 20px;

@@ -14,7 +14,7 @@
   }
   
   .wrapper-menu.open {
-    transform: rotate(-45deg);  
+    transform: rotate(-45deg) !important;  
   }
   
   .line-menu {
@@ -32,6 +32,10 @@
     transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
     transform-origin: right;
   }
+
+  .open {
+    transform: rotate(-45deg) translateX(3px);
+  }
   
   .open .line-menu.start {
     transform: rotate(-90deg) translateX(3px);
@@ -46,6 +50,7 @@
   .open .line-menu.end {
     transform: rotate(-90deg) translateX(-3px);
   }
+
 
   @media(max-width: 800px) {
     .wrapper-menu {
