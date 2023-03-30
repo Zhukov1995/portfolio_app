@@ -2,6 +2,7 @@ import { useSelector } from 'react-redux';
 import { Link as LinkScroll } from 'react-scroll';
 import { motion } from 'framer-motion';
 import './navigation.scss';
+import './navigation.media.scss';
 
 const Navigation = () => {
     const flagBtn = useSelector(state => state.flagBtn);
@@ -40,7 +41,7 @@ const Navigation = () => {
                         to='section_about'
                         spy={true}
                         smooth={true}
-                        offset={-170}
+                        offset={-100}
                         duration={600}
                     >Обо мне</LinkScroll>
                 </span>
@@ -53,7 +54,7 @@ const Navigation = () => {
                         to='section_work'
                         spy={true}
                         smooth={true}
-                        offset={-250}
+                        offset={-150}
                         duration={600}
                     >Опыт</LinkScroll>
                 </span>

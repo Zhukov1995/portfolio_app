@@ -4,6 +4,7 @@ import Logo from './logo.svg';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import './header.scss';
+import './header.media.scss';
 
 const Header = () => {
 

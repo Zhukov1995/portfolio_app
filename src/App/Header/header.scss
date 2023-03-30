@@ -17,16 +17,3 @@ header {
           }
     }
   }
-
-@media(max-width: 800px) {
-  header {
-    height: 70px;
-    a {
-      margin-top: 8px;
-      img {
-        width: 55px;
-        margin-left: 10px;
-      }
-    }
-  }
-}

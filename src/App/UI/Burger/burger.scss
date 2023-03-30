@@ -50,10 +50,3 @@
   .open .line-menu.end {
     transform: rotate(-90deg) translateX(-3px);
   }
-
-
-  @media(max-width: 800px) {
-    .wrapper-menu {
-        display: flex;
-    }
-  }

@@ -22,7 +22,7 @@ const SectionContacts = () => {
             whileInView="visible"
             viewport={{once: true}}
             variants={ContactsAnimation}
-            custom={3}
+            custom={2}
             id='section_contacts'
         >
             <div className='contacts_title'>

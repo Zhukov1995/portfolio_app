@@ -1,0 +1,35 @@
+@media(max-width: 800px) {
+    .nav {
+        position: absolute;
+        margin-right: -350px;
+        transition: 1s;
+        right: 0;
+        width: 350px;
+        height: 100vh;
+        color: white;  
+        padding-top: 50px;
+        padding-right: 0px;
+        background-color: #0a192f;
+        box-sizing: border-box;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr; 
+        gap: 8px 8px;
+        .active {
+            color: rgb(136, 246, 231);
+        }
+        .nav_wrapper_link {
+            width: 100%;
+            height: 50px;
+            padding-left: 100px;
+        }
+        .nav_link__pdf {
+           margin: 0;
+           margin-left: 20px;
+        }
+    }
+    .nav_open {
+        margin-right: 0px;
+        transition: 1s;
+    }
+}

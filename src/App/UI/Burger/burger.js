@@ -3,6 +3,7 @@ import { toggleBurgerMenu } from '../../Store/actions';
 import { motion } from 'framer-motion';
 import { forwardRef } from 'react';
 import './burger.scss';
+import './burger.media.scss';
 
 export const Burger = forwardRef((props,ref) => {
     const burger = useSelector(state => state.burger);

@@ -2,19 +2,18 @@
     #section_about {
         width: 70%;
         margin: 0 auto;
-        margin-top: 450px;
+        margin-top: 270px;
     }
 }
 
 @media(max-width:950px) {
     #section_about {
-        width: 90%;
+        width: 95%;
     }
 }
 
 @media(max-width: 750px) {
     #section_about {
-        width: 95%;
         .flex_about {
             display: flex;
             flex-flow: column;
@@ -46,6 +45,7 @@
 
 @media(max-width: 415px) {
     #section_about {
+        margin-top: 670px;
         .about_learning {
             h2 {
                 font-size: 20px;
