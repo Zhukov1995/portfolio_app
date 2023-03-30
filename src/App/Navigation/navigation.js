@@ -41,7 +41,7 @@ const Navigation = () => {
                         to='section_about'
                         spy={true}
                         smooth={true}
-                        offset={-100}
+                        offset={-200}
                         duration={600}
                     >Обо мне</LinkScroll>
                 </span>
@@ -54,7 +54,7 @@ const Navigation = () => {
                         to='section_work'
                         spy={true}
                         smooth={true}
-                        offset={-150}
+                        offset={-200}
                         duration={600}
                     >Опыт</LinkScroll>
                 </span>
@@ -80,7 +80,7 @@ const Navigation = () => {
                         to='section_contacts'
                         spy={true}
                         smooth={true}
-                        offset={-100}
+                        offset={-200}
                         duration={600}
                     >Контакты</LinkScroll>
                 </span>
