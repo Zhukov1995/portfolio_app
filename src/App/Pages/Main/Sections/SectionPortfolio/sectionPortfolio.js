@@ -15,7 +15,7 @@ const SectionPortfolio = () => {
         visible: custom => ({
             y: 0,
             opacity: 1,
-            transition: { delay: custom * 0.35}
+            transition: { delay: custom * 0.25}
         })
     }
 

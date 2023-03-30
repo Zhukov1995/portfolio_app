@@ -24,7 +24,7 @@ const SectionAbout = () => {
             whileInView="visible"
             viewport={{once: true}}
             variants={AboutAnimation}
-            custom={3}
+            custom={1}
             id='section_about'
         >
             <Title number='01.' title='Обо мне'/>

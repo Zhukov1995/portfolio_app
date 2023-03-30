@@ -24,7 +24,7 @@ const SectionWork = () => {
             whileInView="visible"
             viewport={{once: true}}
             variants={WorkAnimation}
-            custom={3}
+            custom={1}
             id='section_work'
         >
             <Title number='02.' title='Опыт работы'/>
