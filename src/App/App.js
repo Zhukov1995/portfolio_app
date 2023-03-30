@@ -6,14 +6,27 @@ import Header from './Header/header';
 import Footer from './Footer/footer';
 import Loading from './UI/Loading/loading';
 import { useSelector } from 'react-redux';
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
   const burger = useSelector(state => state.burger);
   
   const classWrapperContent = burger ? 'wrapper_content blur' : 'wrapper_content';
 
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    },3000)
+  }, [])
+
   return (
-    <div className='app'>
+    <>
+    {loading ? 
+      <Loading/>
+        :
+        <div className='app'>
       <Header/>
         <div className={classWrapperContent}>
           <Routes>
@@ -23,6 +36,8 @@ function App() {
         </div>
         <Footer/>
     </div>
+    }
+    </>
   );
 }
 

@@ -3,7 +3,9 @@ import './loading.scss';
 
 const Loading = () => {
     return (
-        <img src={Logo}  className="loading" alt="loading"/>
+        <div className='wrapper_loading'>
+            <img src={Logo}  className="loading" alt="loading"/>
+        </div>
     )
 }
 

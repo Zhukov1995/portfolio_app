@@ -6,9 +6,12 @@
 
   @media(max-width: 550px) {
     .wrapper-menu {
-        width: 35px;
-        height: 35px;
-        margin-top: 18px;
+        width: 30px;
+        height: 30px;
+        margin-top: 19px;
         margin-right: 15px;
+        .line-menu {
+            height: 4px;
+        }
     }
   }
