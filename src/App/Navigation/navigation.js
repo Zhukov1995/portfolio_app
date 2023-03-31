@@ -19,7 +19,7 @@ const Navigation = () => {
             let pagePosition = window.scrollY;
             body.classList.add('disable_scroll');
             body.dataset.position = pagePosition;
-            body.style.top = `auto`;
+            body.style.top = `-${pagePosition}px`;
         } else {
             let pagePosition = parseInt(body.dataset.position, 10);
             body.style.top = 'auto';
