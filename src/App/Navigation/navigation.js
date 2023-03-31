@@ -16,16 +16,14 @@ const Navigation = () => {
     useEffect(() => {
         const body = document.body;
         if(burger) {
-            let pagePosition = window.scrollY;
-            body.classList.add('disable_scroll');
-            body.dataset.position = pagePosition;
-            body.style.top = `-${pagePosition}px`;
+            const scrollY = window.scrollY;
+            body.style.position = 'fixed';
+            body.style.top = `-${scrollY}px`;
         } else {
-            let pagePosition = parseInt(body.dataset.position, 10);
-            body.style.top = 'auto';
-            body.classList.remove('disable_scroll');
-            window.scroll({top: pagePosition, left: 0});
-            body.removeAttribute('data-position');
+            const scrollY = document.body.style.top;
+            document.body.style.position = '';
+            document.body.style.top = '';
+            window.scrollTo(0, parseInt(scrollY || '0') * -1);
         }
         
     }, [burger])
