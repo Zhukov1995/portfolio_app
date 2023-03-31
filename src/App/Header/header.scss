@@ -1,7 +1,8 @@
-header {
+.header {
     width: 100%;
     height: 80px;
     position: fixed;
+    transition: 0.5s;
     display: flex;
     justify-content: space-between;
     background-color: #0a192f;
@@ -16,4 +17,8 @@ header {
             width: 50px;
           }
     }
-  }
+}
+
+.header_hidden {
+  margin-top: -80px;
+}
