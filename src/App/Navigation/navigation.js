@@ -13,12 +13,6 @@ const Navigation = () => {
 
     const classNav = burger ? 'nav nav_open' : 'nav';
 
-    if(burger) {
-        document.body.style.overflowY = 'hidden';
-    } else {
-        document.body.style.overflowY = 'scroll';
-    }
-    
     const navAnimation = {
         hidden: {
             y: -100,
