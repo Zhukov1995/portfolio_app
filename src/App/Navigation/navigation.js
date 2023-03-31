@@ -12,6 +12,24 @@ const Navigation = () => {
     const isVisible = flagBtn ? 'display_none' : null; 
 
     const classNav = burger ? 'nav nav_open' : 'nav';
+    
+    useEffect(() => {
+        const body = document.body;
+        if(burger) {
+            let pagePosition = window.scrollY;
+            body.classList.add('disable_scroll');
+            body.dataset.position = pagePosition;
+            body.style.top = `auto`;
+        } else {
+            let pagePosition = parseInt(body.dataset.position, 10);
+            body.style.top = 'auto';
+            body.classList.remove('disable_scroll');
+            window.scroll({top: pagePosition, left: 0});
+            body.removeAttribute('data-position');
+        }
+        
+    }, [burger])
+
 
     const navAnimation = {
         hidden: {

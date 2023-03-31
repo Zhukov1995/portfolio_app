@@ -1,6 +1,6 @@
 @media(max-width: 800px) {
     .nav {
-        position: absolute;
+        position: fixed;
         margin-right: -350px;
         transition: 1s;
         right: 0;

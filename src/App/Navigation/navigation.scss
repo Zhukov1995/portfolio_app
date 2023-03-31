@@ -51,5 +51,11 @@
     }
 }
 
+.disable_scroll {
+    position: relative;
+    overflow-y:hidden !important;
+    height: 100vh;
+}
+
 
 

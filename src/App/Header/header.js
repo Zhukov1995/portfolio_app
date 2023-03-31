@@ -26,19 +26,7 @@ const Header = () => {
         }
         setOldScrollPosition(scrollTopPosition)
     }
-
-    if(burger) {
-        document.body.style.overflowY = 'hidden';
-    } else {
-        document.body.style.overflowY = 'scroll';
-    }
-
-    document.ontouchstart = function(e) {
-        e.preventDefault();
-    }
     
-    
-
     const classHeader = flagPosition ? "header" : "header header_hidden";
 
     const headerAnimation = {
