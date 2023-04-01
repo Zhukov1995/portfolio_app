@@ -1,4 +1,5 @@
 import './title.scss';
+import './title.media.scss';
 
 const Title = ({number, title}) => {
     return (

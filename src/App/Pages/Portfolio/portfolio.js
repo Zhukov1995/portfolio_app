@@ -2,10 +2,12 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Title from '../../UI/Title/title';
-import Arrow from './arrow.svg';
-import './portfolio.scss';
 import { setFlagBtn } from '../../Store/actions';
 import { motion } from 'framer-motion';
+import Arrow from './arrow.svg';
+import './portfolio.scss';
+import './portfolio.media.scss';
+
 
 const Portfolio = () => {
     const targetProject = useSelector(state => state.targetProject);
@@ -38,7 +40,7 @@ const Portfolio = () => {
                     alt={`${title} скриншот`}
                     key={index}
                     variants={PortfolioAnimation}
-                    custom={index + 8}
+                    custom={index + 6}
                     />
     })
 
@@ -63,22 +65,22 @@ const Portfolio = () => {
             </motion.div>
             <motion.div
                 variants={PortfolioAnimation}
-                custom={2}
+                custom={1}
                 className='portfolio_info'
             >
                 <motion.h3
                     variants={PortfolioAnimation}
-                    custom={3}
+                    custom={2}
                     className='portfolio_subtitle'
                 >Описание проекта</motion.h3>
                 <motion.p
                     variants={PortfolioAnimation}
-                    custom={4}
+                    custom={3}
                     className='text_md'>{description}</motion.p>
             </motion.div>
             <motion.div
                 variants={PortfolioAnimation}
-                custom={5}
+                custom={4}
                 className='portfolio_info'
             >
                 <h3 className='portfolio_subtitle'>Особенности проекта</h3>
@@ -86,7 +88,7 @@ const Portfolio = () => {
             </motion.div>
             <motion.div
                 variants={PortfolioAnimation}
-                custom={6}
+                custom={5}
                 className='portfolio_stack'
             >
                 <h3 className='portfolio_subtitle'>Стек проекта</h3>

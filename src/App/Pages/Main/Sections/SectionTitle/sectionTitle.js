@@ -1,6 +1,6 @@
+import { motion } from "framer-motion"
 import './sectionTitle.scss';
 import './sectionTitle.media.scss';
-import { motion } from "framer-motion"
 
 const SectionTitle = () => {
 

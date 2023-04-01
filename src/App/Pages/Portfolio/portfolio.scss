@@ -77,36 +77,3 @@
         }
 }
 
-@media(max-width: 1000px) {
-    .portfolio {
-        width: 80%;
-        margin: 0 auto;
-    }
-}
-
-@media(max-width: 850px) {
-    .portfolio {
-        .portfolio_stack_list {
-            gap: 4px 8px;
-        }
-    }
-}
-
-
-
-@media(max-width: 550px) {
-  .portfolio {
-    padding: 5px;
-    width: 100%;
-    .portfolio_info {
-        .portfolio_subtitle {
-            font-size: 20px;
-        }
-    }
-    .portfolio_stack_list {
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr; 
-        width: 100%;
-      }
-  }
-}
