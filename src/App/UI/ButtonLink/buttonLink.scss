@@ -1,0 +1,28 @@
+.button_link {
+    text-decoration: none;
+    color: rgb(136, 246, 231) !important;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 5px;
+    display: inline-block;
+    height: 50px;
+    border: 1px solid rgb(136, 246, 231);
+}
+.button_link:hover {
+    background-color: rgba(135, 245, 230, 0.237);
+    transition: 1s;
+}
+
+.sm {
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.md {
+    width: 160px;
+    font-size: 16px;
+    line-height: 45px;
+}

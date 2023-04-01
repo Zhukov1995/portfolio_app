@@ -1,6 +1,11 @@
 import { motion } from 'framer-motion';
+import Instagram from './images/instagram.svg';
+import GitHub from './images/gitHub.svg';
+import LinkedIn from './images/linkedIn.svg';
+import Telegram from './images/telegram.svg';
 import './sectionContacts.scss';
 import './sectionContacts.media.scss';
+import ButtonLink from '../../../../UI/ButtonLink/buttonLink';
 
 const SectionContacts = () => {
 
@@ -29,9 +34,32 @@ const SectionContacts = () => {
                 <span>04.</span>
                 <h2>Контакты</h2>
             </div>
-            <a href="#">Почта: zhukov.web1995@gmail.com</a>
-            <a href="#">Телеграм: zhukov1995</a>
-            <a href="#">Телефон: 89776499526</a>
+            <div className='contacts_buttons'>
+                <ButtonLink
+                    href="mailto:zhukov.web1995@gmail.com"
+                    text="Написать"
+                    size='md'
+                />
+                <ButtonLink
+                    href="tel:89776499526"
+                    text="Позвонить"
+                    size='md'
+                />
+            </div>
+            <div className='contacts_social'>
+                <a href='https://github.com/Zhukov1995' target='_blank'>
+                    <img src={GitHub} alt={`${GitHub} image`}/>
+                </a>
+                <a href='' target='_blank'>
+                    <img src={LinkedIn} alt={`${LinkedIn} image`}/>
+                </a>
+                <a href='https://instagram.com/romanzhukov1995?igshid=YmMyMTA2M2Y=' target='_blank'>
+                    <img src={Instagram} alt={`${Instagram} image`}/>
+                </a>
+                <a href='https://telegram.im/@zhukov1995'>
+                    <img src={Telegram} alt={`${Telegram} image`}/>
+                </a>
+            </div>
         </motion.section>
     )
 }

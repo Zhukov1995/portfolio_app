@@ -21,3 +21,18 @@
         }
     }
 }
+
+
+@media(max-width: 360px) {
+    #section_contacts {
+        .contacts_buttons {
+            max-width: 360px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+            a {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

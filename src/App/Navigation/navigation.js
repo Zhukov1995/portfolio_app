@@ -3,6 +3,7 @@ import { Link as LinkScroll } from 'react-scroll';
 import { motion } from 'framer-motion';
 import './navigation.scss';
 import './navigation.media.scss';
+import ButtonLink from '../UI/ButtonLink/buttonLink';
 
 const Navigation = () => {
     const flagBtn = useSelector(state => state.flagBtn);
@@ -86,7 +87,11 @@ const Navigation = () => {
                 </span>
             </motion.div>
             <motion.div variants={navAnimation} custom={9} className='nav_wrapper_link'>
-                <a href='https://disk.yandex.ru/i/YJnNzVoxZHVB_A' target='_blank'   className='nav_link__pdf'>Резюме</a>
+                <ButtonLink
+                    href='https://disk.yandex.ru/i/YJnNzVoxZHVB_A'
+                    text='Резюме'
+                    size='sm'
+                />
             </motion.div>
         </motion.div>
     )
