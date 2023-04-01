@@ -8,13 +8,13 @@ import SectionPortfolio from './Sections/SectionPortfolio/sectionPortfolio';
 const Main = () => {
 
     return (
-        <>
+        <div>
             <SectionTitle/>
             <SectionAbout/>
             <SectionWork/>
             <SectionPortfolio/>
             <SectionContacts/>
-        </>
+        </div>
     )
 }
  export default Main;

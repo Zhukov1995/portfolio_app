@@ -3,7 +3,6 @@ import { Link as LinkScroll } from 'react-scroll';
 import { motion } from 'framer-motion';
 import './navigation.scss';
 import './navigation.media.scss';
-import { useEffect } from 'react';
 
 const Navigation = () => {
     const flagBtn = useSelector(state => state.flagBtn);
@@ -12,21 +11,6 @@ const Navigation = () => {
     const isVisible = flagBtn ? 'display_none' : null; 
 
     const classNav = burger ? 'nav nav_open' : 'nav';
-    
-    useEffect(() => {
-        const body = document.body;
-        if(burger) {
-            const scrollY = window.scrollY;
-            body.style.position = 'fixed';
-            body.style.top = `-${scrollY}px`;
-        } else {
-            const scrollY = document.body.style.top;
-            document.body.style.position = '';
-            document.body.style.top = '';
-            window.scrollTo(0, parseInt(scrollY || '0') * -1);
-        }
-        
-    }, [burger])
 
 
     const navAnimation = {
