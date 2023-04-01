@@ -18,6 +18,7 @@ const initialState = {
     },
     flagBtn: false,
     burger: false,
+    topPosition: 0,
 }
 
 const reducer = (state = initialState, action) => {
@@ -28,6 +29,8 @@ const reducer = (state = initialState, action) => {
             return {...state, flagBtn: action.payload}
         case 'TOOGLE_BURGER_MENU':
             return {...state, burger: !state.burger}
+        case 'SET_TOP_POSITION':
+            return {...state, topPosition: action.payload}
         default: return state;
     }
 }

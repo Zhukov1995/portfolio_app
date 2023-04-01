@@ -17,4 +17,14 @@
         width: 95%;
     }
 }
+
+@media(max-width: 415px) {
+    #section_work {
+        .work_item {
+            h3 {
+                font-size: 19px;
+            }
+        }
+    }
+}
     

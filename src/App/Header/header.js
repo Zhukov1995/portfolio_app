@@ -1,17 +1,19 @@
 import Navigation from '../Navigation/navigation';
 import { useState } from 'react';
 import { MBurger } from '../UI/Burger/burger';
-import Logo from './logo.svg';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { setTopPosition } from '../Store/actions';
+import Logo from './logo.svg';
 import './header.scss';
 import './header.media.scss';
-import { useSelector } from 'react-redux';
 
 const Header = () => {
     const burger = useSelector(state => state.burger);
     const [oldScrollPosition,setOldScrollPosition] = useState(0);
     const [flagPosition,setFlagPosition] = useState(true);
+    const dispatch = useDispatch();
   
     window.onscroll = () => {
         const scrollTopPosition = document.documentElement.scrollTop;
@@ -49,7 +51,12 @@ const Header = () => {
             className={classHeader}
         >
             <Link to="/">
-                <motion.img src={Logo} variants={headerAnimation} custom={2}/>
+                <motion.img 
+                    src={Logo} 
+                    variants={headerAnimation} 
+                    custom={2} 
+                    onClick={() => dispatch(setTopPosition(0))}
+                />
             </Link>
             <MBurger variants={headerAnimation} custom={2}/>
             <Navigation/>   

@@ -28,7 +28,7 @@ const Portfolio = () => {
         visible: custom => ({
             y: 0,
             opacity: 1,
-            transition: { delay: custom * 0.2}
+            transition: { delay: custom * 0.15}
         })
     }
 
@@ -54,35 +54,31 @@ const Portfolio = () => {
             viewport={{once: true}}
             className='portfolio'
         >
-            <motion.div
-                variants={PortfolioAnimation}
-                custom={1}
-                className='portfolio_arrow'
-            >
+            <div className='portfolio_arrow'>
                 <img src={Arrow} className="arrow" alt='arrow'/>
                 <Link to="/">на главную</Link>
-            </motion.div>
-            <motion.div variants={PortfolioAnimation} custom={2}>
+            </div>
+            <motion.div variants={PortfolioAnimation} custom={1}>
                 <Title title={title}/>
             </motion.div>
             <motion.div
                 variants={PortfolioAnimation}
-                custom={3}
+                custom={2}
                 className='portfolio_info'
             >
                 <motion.h3
                     variants={PortfolioAnimation}
-                    custom={4}
+                    custom={3}
                     className='portfolio_subtitle'
                 >Описание проекта</motion.h3>
                 <motion.p
                     variants={PortfolioAnimation}
-                    custom={5}
+                    custom={4}
                     className='text_md'>{description}</motion.p>
             </motion.div>
             <motion.div
                 variants={PortfolioAnimation}
-                custom={6}
+                custom={5}
                 className='portfolio_info'
             >
                 <h3 className='portfolio_subtitle'>Особенности проекта</h3>
@@ -90,7 +86,7 @@ const Portfolio = () => {
             </motion.div>
             <motion.div
                 variants={PortfolioAnimation}
-                custom={7}
+                custom={6}
                 className='portfolio_stack'
             >
                 <h3 className='portfolio_subtitle'>Стек проекта</h3>

@@ -29,8 +29,6 @@ const SectionPortfolio = () => {
                      className="portfolio_item"
                      variants={portfolioAnimation}
                      custom={index + 1}
-
-
                 />
     })
 

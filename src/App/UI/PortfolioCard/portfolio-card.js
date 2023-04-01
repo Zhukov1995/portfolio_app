@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { setTargetProject } from '../../Store/actions';
+import { setTargetProject, setTopPosition } from '../../Store/actions';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { forwardRef } from 'react';
@@ -15,7 +15,7 @@ const stackList = item.stack.map((item,index) => {
 })
 
     return (
-        <Link ref={ref} to="/portfolio" className='link_router'>
+        <Link ref={ref} to="/portfolio" className='link_router' onClick={() => dispatch(setTopPosition(window.scrollY))}>
             <div className='portfolio_card' onClick={() => dispatch(setTargetProject(item))}>
                 <img src={Folder} alt='folder-img'/>
                 <h3>{item.title}</h3>
