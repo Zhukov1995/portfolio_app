@@ -50,13 +50,13 @@ const SectionContacts = () => {
                 <a href='https://github.com/Zhukov1995' target='_blank'>
                     <img src={GitHub} alt={`${GitHub} image`}/>
                 </a>
-                <a href='' target='_blank'>
+                <a href='https://www.linkedin.com/in/роман-жуков-32282525a/' target='_blank'>
                     <img src={LinkedIn} alt={`${LinkedIn} image`}/>
                 </a>
                 <a href='https://instagram.com/romanzhukov1995?igshid=YmMyMTA2M2Y=' target='_blank'>
                     <img src={Instagram} alt={`${Instagram} image`}/>
                 </a>
-                <a href='https://telegram.im/@zhukov1995'>
+                <a href='https://telegram.im/@zhukov1995' target='_blank'>
                     <img src={Telegram} alt={`${Telegram} image`}/>
                 </a>
             </div>

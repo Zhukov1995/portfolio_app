@@ -7,11 +7,12 @@ import { motion } from 'framer-motion';
 import Arrow from './arrow.svg';
 import './portfolio.scss';
 import './portfolio.media.scss';
+import ButtonScrollTop from '../../UI/ButtonScrollTop/buttonScrollTop';
 
 
 const Portfolio = () => {
     const targetProject = useSelector(state => state.targetProject);
-    const { title, description, features, stack, images, link } = targetProject;
+    const { title, description, features, stack, images, link, repo } = targetProject;
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -98,6 +99,8 @@ const Portfolio = () => {
             </motion.div>
             {imageList}
             <span>Ссылка на проект:<a href={link} target="_blank">{link}</a></span>
+            <span>Ссылка на репозиторий:<a href={repo} target="_blank">{repo}</a></span>
+            <ButtonScrollTop/>
         </motion.div>
     )
 }
