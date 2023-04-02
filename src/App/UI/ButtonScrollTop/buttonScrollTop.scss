@@ -1,6 +1,7 @@
 .back_top {
     background-color: transparent;
     border-radius: 5px;
+    text-align: center;
     height: 50px;
     width: 50px;
     border: 1px solid rgb(136, 246, 231);
@@ -23,6 +24,6 @@
 @media(max-width: 700px) {
     .back_top {
         top: 80vh;
-        right: 5px;
+        right: 15px;
     }
 }
