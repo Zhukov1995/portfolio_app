@@ -23,6 +23,8 @@ const Portfolio = () => {
         }
     }, [dispatch]);
 
+    // если пользователь обновил страницу мы проверяем пришедшие данные из localStorage и устанавливаем их в state
+    // если пользователь не обновил, а просто вышел назад то данные нам не понадобятся и мы их удаляем из localStorage
     useEffect(() => {
         if(localStorage.getItem('target') !== null) {
             const target = JSON.parse(localStorage.getItem('target'));
@@ -33,8 +35,9 @@ const Portfolio = () => {
         }
     }, [])
 
+    // если пользователь обновил именно target страницу, то мы записываем в localStorage на какой именно странице он был
     window.addEventListener('unload', () => {
-        if (window.location.href === 'http://localhost:3000/portfolio') {
+        if (window.location.href === 'https://portfolio-app-woad-eight.vercel.app/portfolio') {
             localStorage.setItem('target', JSON.stringify(targetProject))
         }
     })
