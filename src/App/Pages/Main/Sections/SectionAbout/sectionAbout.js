@@ -30,8 +30,7 @@ const SectionAbout = () => {
             <Title number='01.' title='Обо мне'/>
             <div className='flex_about'>
                 <div className='about'>
-                    <p className='text_md'>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
-                    <p className='text_md'>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest    in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking     together a custom reblog button taught me a lot about HTML & CSS!</p>
+                    <p className='text_md'>Привет! Меня зовут Роман Жуков и мне нравится создавать вещи для веба. Мой интерес к веб-разработке появился в 2020 году, когда я поступил в учебное заведение, по специальности "Информационные системы и программирование". Тогда я еще не был так сильно в это втянут, так как на первом курсе были только общеобразовательные предметы. Спустя год я понял, что в этом направление нужно именно саморазвиваться и обладать самодисциплиной, потому что технологии очень быстро развиваются. Я отошел немного от основной учебы, и начал читать статьи, книги, пробовать писать код. И такими темпами потихоньку развивался, при это параллельно работая. На сегодняшний день я уже обладаю достаточными знаниями, для работы с реальными продуктами.</p>
                 </div>
                 <div className='wrapper_img'>
                     <img src={MyPhoto} alt='my-photo' className='about_img'/>
@@ -51,13 +50,15 @@ const SectionAbout = () => {
                 <ul>
                     <li>CSS</li>
                     <li>HTML</li>
-                    <li>JavaScript/ES6</li>
+                    <li>SASS/LESS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
                     <li>React</li>
                     <li>Redux</li>
-                    <li>Formik</li>
                     <li>GIT</li>
                     <li>Eslint</li>
-                    <li>SASS/LESS</li>
+                    <li>Photoshop</li>
+                    <li>Figma</li>
                 </ul>
             </div>
         </motion.section>

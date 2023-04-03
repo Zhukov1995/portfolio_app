@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, redirect } from 'react-router-dom';
 import Title from '../../UI/Title/title';
-import { setFlagBtn } from '../../Store/actions';
+import { setFlagBtn, setTargetProject } from '../../Store/actions';
 import { motion } from 'framer-motion';
 import Arrow from './arrow.svg';
 import './portfolio.scss';
@@ -22,6 +22,22 @@ const Portfolio = () => {
             dispatch(setFlagBtn(false));
         }
     }, [dispatch]);
+
+    useEffect(() => {
+        if(localStorage.getItem('target') !== null) {
+            const target = JSON.parse(localStorage.getItem('target'));
+            dispatch(setTargetProject(target))
+        }
+        return () => {
+            localStorage.removeItem('target')
+        }
+    }, [])
+
+    window.addEventListener('unload', () => {
+        if (window.location.href === 'http://localhost:3000/portfolio') {
+            localStorage.setItem('target', JSON.stringify(targetProject))
+        }
+    })
 
     const PortfolioAnimation = {
         hidden: {

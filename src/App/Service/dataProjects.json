@@ -2,9 +2,9 @@
     "Интернет магазин": {
         "title": "Интернет магазин",
         "shortDescription": "Интернет магазин техники Apple",
-        "stack": ["typescript", "react", "sass", "react-router", "redux"],
-        "description": "Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.",
-        "features": "Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app.",
+        "stack": ["react", "react-slick", "sass", "react-router", "redux"],
+        "description": "Цель данного проекта была реализовать все базовые функции интернет магазина.",
+        "features": "У магазина не реализован бэкенд и нет базы данных. Разработана локальная база данных в формате JSON и сервис по работе с ней.",
         "images": [
             "https://lh3.googleusercontent.com/pw/AMWts8B-e9DMj8Lu8U2oCts2saAIX6EKDBI8X1D_gLtNc8KzyHlz1QJRi6zVcc_q2IT9_m_gKWUWk4Z1T7uZzd4P5KPNo3Ilb0SmFZLdoKSWQVpPnjFgAj0AAzscxqWwdtmhiNO8FUiOJtKGFJ5E1Nz5R_c=w1863-h933-s-no?authuser=0",
             "https://lh3.googleusercontent.com/pw/AMWts8B72Z1g5Z5hzILOA40eVLgNqj40mJNqGhUHUv2WIG32u6mLJpfqzaLGTm4KvxC_s5VnnnsmwFWhb492QXN_LcMDr-ZZZJ1GEmRmjj9u4o-1dF9dgk35t6423Qb_9o5kNX4Lm8oFTQd0H8j3Rn_R1hY=w1855-h933-s-no?authuser=0",
@@ -20,9 +20,9 @@
     "Сайт Новостей": {
         "title": "Сайт Новостей",
         "shortDescription": "Интерфейс для API Hacker News",
-        "stack": ["typescript", "react", "sass", "react-router","typescript", "react"],
-        "description": "Описание моего интернет магазина",
-        "features": "Особенности моего интернет магазина",
+        "stack": ["typescript", "react", "sass", "react-router","redux", "react-time-ago"],
+        "description": "При входе на сайт мы видим как подгружаются первые 30 новостей. После этого каждую минуту появляется новая новость.Когда список новостей доходит до 100,при каждом добавлении новости, начинает удаляться последняя, таким образом достигается лимит в 100 последних новостей. Так же есть возможность обновлять список,то есть принудительно получить новую новость.При достижении 500 новостей все останавливается и получаем надпись 'На сегодня это все новости'.",
+        "features": "Сайт работает немного своеобразным образом из-за предоставленного API. Данный API полностью построен на том, что он отдает даенные только поштучно по идентификаторам, то есть чтобы получить 100 новостей нужно сделать 100 запросов. Исходя из этого мы не можем подгрузить сразу массив данных. Так же у API нет времени публикации, пришлось делать свое и придумывать, как перебрасывать его между рендерами.",
         "images": [
             "https://lh3.googleusercontent.com/pw/AMWts8B4jcqfAe3Q-p-PMChlWVUmdPUs5qlMtJImwlxFj3WDifF5ggXw441qmr07_9QRHrt_eRL0ccthmaQQlrEjLxJfWCNHlvBI879zOdiLD8Q355rUuvFSO5mhHHK5eFW_Xu-JrY5xgmXvio0whmYicf4=w1920-h930-s-no?authuser=0",
             "https://lh3.googleusercontent.com/pw/AMWts8BKZdUxw-0S05Q6MTdASJj3u_VLGR8Je5vSE5WlejkkdzxX4h9HGFsZQ1IgyOO1P4iusCwbyNcdxD6hFZDcPFKpYbqEua8QKWZCYY56sk5ODjPpKJWDB_FLlFgLJSOukCaEouiH7n0ON8I6PKTsMH4=w1920-h925-s-no?authuser=0",
@@ -35,9 +35,9 @@
     "Сайт Комиксов": {
         "title": "Сайт Комиксов",
         "shortDescription": "Интерфейс для API Marvel",
-        "stack": ["typescript", "react", "sass", "react-router","typescript", "react"],
-        "description": "Описание моего интернет магазина",
-        "features": "Особенности моего интернет магазина",
+        "stack": ["react","react-router","prop-types"],
+        "description": "За основу был взят Marvel API. Сайт предоставляет возможность просмотреть персонажей и комиксы. В начале главной страницы мы можем получить случайного персонажа. Ниже при клике на определенного персонажа,можно узнать какие у него есть комиксы. На странице комиксов мы можем просмотреть комиксы,их стоимость, а при клике еще и узнать описание и количество страниц.",
+        "features": "К сожалению данный сайт пока не адаптирован под мобильные устройства, но я все-же считаю, что он заслуживает вашего внимания. ",
         "images": [
             "https://lh3.googleusercontent.com/pw/AMWts8CME6rEVKAvHvDlsk7xK7sOksCX9b0nBf7MgDW-W_h8myCVW4zRqAmVqZeIC7L3CVyznt6vOJPjw-tnvfhvnNos2TPAuGLmF4kMuG_H_uSRD57udhfaTSwKYeLKI9FPYynb9x2RFDNmJ9lC98s9fkQ=w1916-h925-s-no?authuser=0",
             "https://lh3.googleusercontent.com/pw/AMWts8DyWUEW0Ut-2xBFOrLlMnWLadomdwMiyOruWq5hGdntdLUIl5yr0oKVdWEP8Elb26CinTJ8kDlgrtVLFyTeuS1lKiFF_xmD7G2S54bkOCMC2hSYYApSGbyLfBjjVBy3taFwjc3fZgiGtivRnC7Cc7Q=w1918-h930-s-no?authuser=0",
@@ -52,9 +52,9 @@
     "Сотрудники Компании": {
         "title": "Сотрудники Компании",
         "shortDescription": "Учет Сотрудников Компании",
-        "stack": ["typescript", "react", "sass", "react-router","typescript", "react"],
-        "description": "Описание моего интернет магазина",
-        "features": "Особенности моего интернет магазина",
+        "stack": ["react"],
+        "description": "Сайт помогает нам вести учет сотрудников компании. Мы можем добавлять сотрудников, фиксировать премию, фиксировать кто пойдет на повышение в этом месяце, а так же если кто то уволился удалить сотрудника. Есть возможность поиска по имени, фильтрации по разным параметрам.",
+        "features": "Если под проект написать backend, добавить личный кабинет и базу данных, то это может быть вполне полезное приложение.",
         "images": [
             "https://lh3.googleusercontent.com/pw/AMWts8CHCqpgLyNaKmLLusoi7McTW0LSI3h4ednwYeHqFHMi6GTAZSy3sFd1jGc-5d0aCR7IZ6RvC-0FYk6cM4NUDCJpRfiKTr-_RQbYvePbdfJGazPp8nrk08ntpSw75nYv1N2iG9ke8SqjaxTyDQnlJFE=w1918-h915-s-no?authuser=0",
             "https://lh3.googleusercontent.com/pw/AMWts8Dvi9mjMN49HwL3ABUlSs6ga5AzlNxMEQUMDCeVz0906EVMfDyG7CMqAQkAhQf1lwc7lSKzVjUdnG8-pe67FSkFFnQBSEJ6ATKyYbDURTztJFStacHClXn_TYGWsTW6KJIyFCkPIRMKRIUoIq2Q6Ng=w1916-h930-s-no?authuser=0",
@@ -68,9 +68,9 @@
     "Колесо фортуны": {
         "title": "Колесо фортуны",
         "shortDescription": "Колесо фортуны работающее на промокодах",
-        "stack": ["typescript", "react", "sass", "react-router","typescript", "react"],
-        "description": "Описание моего интернет магазина",
-        "features": "Особенности моего интернет магазина",
+        "stack": ["javascript", "css", "html", "php"],
+        "description": "Цель этого проекта была, разработать механизм персонального розыгрыша подарков, без написания backend'a, так как на решение задачи было максимум 3 дня. Решением стало внедрение системы промокодов. Разные промокоды дают разное количество попыток. Человек вводит промокод, прокручивает колесо, заполняет форму и все эти формы приходят на почту.",
+        "features": "Проект был написан для друга. Из за сложности верстки, не успел своевременно его адаптировать. Но я все же верю в то, что у меня дойдут до него руки, так как это полезный механизм и он может когда-нибудь пригодиться. Так же из нюансов данного подхода могу подчеркнуть то, что если человек повторно играл и высылал форму, приходилось проверять и высылать шаблонное сообщение 'Извините, но ваш промокод уже недействителен!'. Если вдруг захотите поиграть: 2 попытки: 'lr65XbYwOX', 4 попытки: 'SKaf@!0Ixr0B', 6 попыток: 'Q3XFTUZgIWH5Po'.",
         "images": [
             "https://lh3.googleusercontent.com/pw/AMWts8DVoJRfZoLrfkiYOdMZSzzo6BeQvBr_3HoHCZ5d3DYSwx7otQA9n6gc4QcMWTcKL0qviTyx8U2cWllX6Gc1oRfOEu27ScyNsKmyYyg20_CzHMvsqQt-OFY4Z1Qvtumu6ASzvnOgfbqe96LO50y8oQw=w1916-h931-s-no?authuser=0",
             "https://lh3.googleusercontent.com/pw/AMWts8B_2UjPkSStDpSTBwZ0qzhHuq0tnQS9pWkDc_m3dCEsxarUqjfCm8gSpopr2O6ckIqSjGGr6DPLcsgP45jy_4MPc33yLZLgWgKaAM-8RPvz9xc5BBuCmlVjRknpijGUgwYbKMTJ4ncvyeAJ5RM4U2g=w1918-h928-s-no?authuser=0",
@@ -85,9 +85,9 @@
     "Лендинг":{
         "title": "Лендинг",
         "shortDescription": "Адаптивный лендинг",
-        "stack": ["typescript", "react", "sass", "react-router","typescript", "react"],
-        "description": "Описание моего интернет магазина",
-        "features": "Особенности моего интернет магазина",
+        "stack": ["javascript", "css", "html"],
+        "description": "Данный сайт был написан для того, чтобы показать, что я умею делать адаптив.",
+        "features": "Функционала в нем нет.",
         "images": [
             "https://lh3.googleusercontent.com/pw/AMWts8B7RyX2kdHhvfTtFFWAQfLCI38f-6pPAK9qPGzbJtY3DJynHAbvMIhfWja87Nqx95Q51iaTLDMfpXU4VwWrvYQTE5yADnt03bZ9Cql_R-Shv7NsrL1tSqU67cTZPBtLHrRIb_qtwWoSvJpUtOgEhgI=w1918-h933-s-no?authuser=0",
             "https://lh3.googleusercontent.com/pw/AMWts8CqqIdsV9wWrWBwql9a-LGetgwtoTGx9eeXyOvI9huDTB__pDt6PG4D1ZLIyeRLPxE951vXUYGdku67H5wjhDHip8sU6s5RIiOZtV9UAIt4G59VxzH-yyRXUrOBtAc74lGXZo2k4QLRK9yM8x-Dg6U=w1919-h933-s-no?authuser=0",
