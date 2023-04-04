@@ -1,13 +1,13 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { Link, redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Title from '../../UI/Title/title';
 import { setFlagBtn, setTargetProject } from '../../Store/actions';
 import { motion } from 'framer-motion';
 import Arrow from './arrow.svg';
+import ButtonScrollTop from '../../UI/ButtonScrollTop/buttonScrollTop';
 import './portfolio.scss';
 import './portfolio.media.scss';
-import ButtonScrollTop from '../../UI/ButtonScrollTop/buttonScrollTop';
 
 
 const Portfolio = () => {

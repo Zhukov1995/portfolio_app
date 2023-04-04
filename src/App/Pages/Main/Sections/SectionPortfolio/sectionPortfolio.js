@@ -6,6 +6,8 @@ import './sectionPortfolio.scss';
 import './sectionPortfolio.media.scss';
 
 const SectionPortfolio = () => {
+    const serviceProject = new Service();
+    const arrProjects = serviceProject.getProjects();
 
     const portfolioAnimation = {
         hidden: {
@@ -18,9 +20,6 @@ const SectionPortfolio = () => {
             transition: { delay: custom * 0.25}
         })
     }
-
-    const serviceProject = new Service();
-    const arrProjects = serviceProject.getProjects();
 
     const viewArrProjects = arrProjects.map((item,index) => {
         return <MPortfolioCard

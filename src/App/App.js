@@ -1,4 +1,3 @@
-import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import Main from './Pages/Main/main';
 import Portfolio from './Pages/Portfolio/portfolio';
@@ -7,6 +6,7 @@ import Footer from './Footer/footer';
 import Loading from './UI/Loading/loading';
 import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
+import './App.scss';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -15,6 +15,7 @@ function App() {
   
   const classWrapperContent = burger ? 'wrapper_content blur' : 'wrapper_content';
 
+  // тут мы запускаем Loader на 3 сек, затем отображаем приложение
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);

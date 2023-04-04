@@ -7,8 +7,10 @@ import Folder from './folder.svg';
 import './portfolio-card.scss';
 
 export const PortfolioCard = forwardRef(({item},ref) => {
+    const dispatch = useDispatch();
 
-const dispatch = useDispatch();
+    // ниже при клике на карточку мы записываем ее позицию относительно главной страницы, чтобы потом вернуться на эту же позицию
+    // а так же устанавливаем текущий проект
 
     return (
         <Link ref={ref} to="/portfolio" className='link_router' onClick={() => dispatch(setTopPosition(window.scrollY))}>
