@@ -15,6 +15,7 @@ const Header = () => {
     const [flagPosition,setFlagPosition] = useState(true);
     const dispatch = useDispatch();
   
+    // отслеживаем событие скрола,чтобы скрывать header, когда он не нужен
     window.onscroll = () => {
         const scrollTopPosition = document.documentElement.scrollTop;
         if ((oldScrollPosition > scrollTopPosition) && scrollTopPosition > 200) {

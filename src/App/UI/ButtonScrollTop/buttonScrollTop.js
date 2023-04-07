@@ -5,6 +5,7 @@ import './buttonScrollTop.scss';
 const ButtonScrollTop = () => {
     const [showButton, setShowButton] = useState(false);
 
+    // если высота больше 700, то компонент будет появляться
     useEffect(() => {
         window.addEventListener("scroll", () => {
             if (window.pageYOffset > 700) {

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import Title from '../../UI/Title/title';
 import { setFlagBtn, setTargetProject } from '../../Store/actions';
 import { motion } from 'framer-motion';
-import Arrow from './arrow.svg';
 import ButtonScrollTop from '../../UI/ButtonScrollTop/buttonScrollTop';
+import Arrow from './arrow.svg';
 import './portfolio.scss';
 import './portfolio.media.scss';
 
@@ -15,6 +15,8 @@ const Portfolio = () => {
     const { title, description, features, stack, images, link, repo } = targetProject;
     const dispatch = useDispatch();
 
+    // при входе на эту страницу, обнуляем высоту
+    // устанавливаем флаг для кнопок, если true то навигация скрывается 
     useEffect(() => {
         window.scrollTo(0,0);
         dispatch(setFlagBtn(true));

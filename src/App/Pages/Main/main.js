@@ -10,6 +10,7 @@ import './main.scss';
 const Main = () => {
     let scrollPosition = useSelector(state => state.topPosition);
 
+    // при возвращении со страницы портфолио на главную проверяем в каком месте мы были, чтобы не скролить страницу заново
     useEffect(() => {        
         window.scrollTo(0, scrollPosition);
     }, [])

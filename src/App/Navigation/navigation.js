@@ -1,9 +1,9 @@
 import { useSelector } from 'react-redux';
 import { Link as LinkScroll } from 'react-scroll';
 import { motion } from 'framer-motion';
+import ButtonLink from '../UI/ButtonLink/buttonLink';
 import './navigation.scss';
 import './navigation.media.scss';
-import ButtonLink from '../UI/ButtonLink/buttonLink';
 
 const Navigation = () => {
     const flagBtn = useSelector(state => state.flagBtn);
