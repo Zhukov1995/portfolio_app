@@ -15,7 +15,7 @@ function App() {
   
   const classWrapperContent = burger ? 'wrapper_content blur' : 'wrapper_content';
 
-  // тут мы запускаем Loader на 3 сек, затем отображаем приложение
+  // тут мы запускаем Loader на 3 сек, затем отображаем приложение(часть дизайна)
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
