@@ -98,5 +98,34 @@
         ],
         "link": "https://zhukov1995.github.io/landing/",
         "repo": "https://github.com/Zhukov1995/landing"
+    },
+    "Стрелочные часы": {
+        "title": "Стрелочные часы",
+        "shortDescription": "Часы берут данные из API",
+        "stack": ["react", "react-slick", "sass", "react-router", "redux"],
+        "description": "Стильные стрелочные часы, которые берут данные из API и каллибруются по ним",
+        "features": "Московский часовой пояс.",
+        "images": [
+            "https://lh3.googleusercontent.com/pw/AJFCJaUHb-7hlYW5dwMDd6RQNfXJMPcD4dhIn8hUmA9IaLtO1HWxNm81FvIoFCmpQzovWyNNWhKm3cWjdXYl5Thrj3zBVSxD9gMUiCLYR1f6a2yuojyMUbUR1LtqJDWylbVj1OfMl-SKb99L3fSwRlk5YVk=w1920-h919-s-no?authuser=0"
+        ],
+        "link": "https://arrow-clock.vercel.app/",
+        "repo": "https://github.com/Zhukov1995/arrow_clock"
+    },
+    "Список дел": {
+        "title": "Список дел",
+        "shortDescription": "Мобильное приложение с базой данных",
+        "stack": ["react-native", "expo", "redux-toolkit", "firebase"],
+        "description": "На главном экране у нас есть возможность добавлять дела и при долгом нажатии удалять. Если пытаемся удалить у нас попросят подтвердить действие. При клике на дело переходим на его страницу, там мы можем удалить, редактировать или выйти назад. При нажатии на редактировать открывается модальное окно, после нажатия на сохранить, модальное окно закрывается. Все действия с делами синхронизированны с базой данных (CRUD).",
+        "features": "Пока не обнаруженно.",
+        "images": [
+            "https://lh3.googleusercontent.com/pw/AJFCJaXJfbdR-8b3hIgWeyXsNfXFQXMZdm7hTX6RGB-N9yE6gwG9wDnBYrrbC8qBFHNnkiw037InUVgfozw7-Mel2tiDssPbG2nahMpKc2m_O1qN1O653IuWwePTrzhHuLzcv1x-O4yIW8tMM7GyBoGo0tQ=w444-h961-s-no?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AJFCJaVwpMMUKXjLnSFe8c5TVCdNyX840SeIqIwFiyN3J4pPftZcSAptn5spszKg3inDjYad17dfRyt2btDqeviS5fZUmuzIe7L-FSsjVDfTHXEyItKNJQpQYv1x2PqPRCEG_4rId_6js3EklNYweTS_ZW4=w444-h961-s-no?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AJFCJaXaQUoJeSy1a9iuUeJIQpmz3eZz5dhgIQJtKlaVaUcNiKAlW6qD4W18A6t1cZJPc0wtHVUudK5WeHbgOhBsme61x2TP8bOK9e99CBCN8lhjCjr-TRb8-pCI7zVnTSBMsaT4yVS3fRvm9chtiR3mk_M=w444-h961-s-no?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AJFCJaWZAPMahy5AB6HL7OSu-zpDGvqDy8prHwhSmpM_fELouCKc0T7HvUvBukxQep_W6YHyIS3nXmMQy8SHYmyi9bDLpmHS2n7d7qXkx7BV_hy0BE6o-8bT0uPh7OnOy9pPW27VTiuO0MSzDoLvTRVocgA=w444-h961-s-no?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AJFCJaV4WO5rarFVHMBWniT5g_eATCC2cgqVJu1DLoiv1XHcxKL5juwBEb9Zw9BixZzQ1qLbmIALFD3jM0NDmX0UAVJofUm0fRvQOlRV8kIoJVn1EiidGW-WveiZa0AVFC7_cMr8M2eOcELyhmCmSU1Y-H0=w444-h961-s-no?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AJFCJaVrvhRlIb0Z3ncnCkHoTOXiGn4tM0T1jnOAL4S-eSLVhzlVRodW54-Gtai6kv1CfBd5yvbRXqIj8bljLIS6pUhjg-NtQqtrawspE7bY7GqFt6tqH0G6yzltmz8xunswtgstGvbWVnRdG4HkfZyd9Mo=w444-h961-s-no?authuser=0"
+        ],
+        "link": "#",
+        "repo": "https://github.com/Zhukov1995/rn-todo-app"
     }
 }

@@ -1,5 +1,7 @@
 #section_portfolio {
     margin-top: 350px;
+    overflow: hidden;
+    height: 800px;
     .grid_portfolio {
         margin-top: 30px;
         display: grid; 
@@ -7,4 +9,8 @@
         grid-template-rows: 1fr 1fr; 
         gap: 12px 8px; 
     }
+}
+
+.active_show_more {
+    height: 1160px !important;
 }

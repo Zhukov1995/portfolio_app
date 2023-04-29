@@ -20,6 +20,7 @@ const initialState = {
     flagBtn: false,
     burger: false,
     topPosition: 0,
+    offsetPortfolio: 'Показать больше',
 }
 
 const reducer = (state = initialState, action) => {
@@ -32,6 +33,8 @@ const reducer = (state = initialState, action) => {
             return {...state, burger: !state.burger}
         case 'SET_TOP_POSITION':
             return {...state, topPosition: action.payload}
+        case 'SET_OFFSET_PORTFOLIO': 
+            return {...state, offsetPortfolio: action.payload}
         default: return state;
     }
 }
