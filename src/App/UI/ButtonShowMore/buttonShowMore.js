@@ -9,8 +9,8 @@ const ButtonShowMore = () => {
 
     // меняем значение и опираясь на это меняем class в секции Портфолио
     const toggleText = () => {
-        if(offsetPortfolio !== 'Показать больше') {
-            dispatch(setOffsetPortfolio('Показать больше'))
+        if(offsetPortfolio !== 'Больше') {
+            dispatch(setOffsetPortfolio('Больше'))
         } else {
             dispatch(setOffsetPortfolio('Скрыть'))
         }

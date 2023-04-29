@@ -20,7 +20,7 @@ const initialState = {
     flagBtn: false,
     burger: false,
     topPosition: 0,
-    offsetPortfolio: 'Показать больше',
+    offsetPortfolio: 'Больше',
 }
 
 const reducer = (state = initialState, action) => {
