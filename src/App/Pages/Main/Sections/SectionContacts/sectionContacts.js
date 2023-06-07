@@ -34,6 +34,9 @@ const SectionContacts = () => {
                 <span>04.</span>
                 <h2>Контакты</h2>
             </div>
+            <p>Сейчас мы занимаемся разработкой и развитием BI систем, если интересно советую обратить внимание на 
+                 <a href='https://techpeople.ru/' target='_blank'> Techpeople.ru</a>. 
+            Но все же я всегда на связи и открыт к новым предложениям о сотрудничестве в каком-либо формате.</p>
             <div className='contacts_buttons'>
                 <ButtonLink
                     href="mailto:zhukov.web1995@gmail.com"
