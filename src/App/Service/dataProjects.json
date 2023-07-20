@@ -127,5 +127,21 @@
         ],
         "link": "#",
         "repo": "https://github.com/Zhukov1995/rn-todo-app"
+    },
+    "Мультиконтроллер": {
+        "title": "Мультиконтроллер",
+        "shortDescription": "Система для управления экранами",
+        "stack": ["javascript", "html", "css"],
+        "description": "Этот модуль позволяет с легкостью управлять большим количеством экранов.Я не нашел бесплатного и более легкого решения в интернете, поэтому решил создать свое. Это будет полезно для каких-то ситуационных центров, для презентаций и для всех остальных, кто работает с несколькими или более экранами. Описание функционала: Есть две возможности либо открыть по ссылке либо открыть локальный файл.Выбирается что-то одно, после этого выбираете на каком экране и в каком секторе вы хотите это открыть.Секторов всего пять, то есть либо это часть экрана(сектор), либо открываете на весь выбранный экран. При двойном клике на сектор, целевое окно закрываетя, таким образом достигается гибкость.",
+        "features": "Чтобы это корректно работало вам нужно: при первом входе нажать создать,разрешить этому сайту управлять окнами,и обновить страницу.После этого у вас появиться полный список всех подключенных мониторов . Для корректного отображения окон нужно настроить все мониторы под один масштаб.",
+        "images": [
+            "https://lh3.googleusercontent.com/pw/AIL4fc88oRN2g8TcfoAkcHv9Uxlv-U2rTqmWZwC-HxgxKDJu3rGQ6_FwuEwo3IywqA1EpxOCrhyfDNRo4qIYMJBkKj1cG8MgE1eAwa_f4qYg0uFY4MvrEyZywjWu3yWcr6w29aGTNnBJje-UMwNTdrBwX94=w1909-h933-s-no?authuser=1",
+            "https://lh3.googleusercontent.com/pw/AIL4fc8iMKZx2QtE5h__6DWwsYPVi_2p3hqqiJqhAW97NddDHFz02ZkF3CYS-N_iFj9pfiwbhTGM_FcsHRGyGLdEmB8KocZYmrX0tp-eidb--0PesKE0DyHngyN02XLAPiK9cwOngShR98A-pjCMRfKhdpA=w1658-h933-s-no?authuser=1",
+            "https://lh3.googleusercontent.com/pw/AIL4fc-Fnqp0f4MQX-oAQ4bjOJLfVMl9GetoTOskXD9g8EO0DtW12lXXmE2d9Kuk9su-NGPTOSIa3JzaKLdpGkTV50aJeiV9yZzERSoZwmBsD-H4-UEOK9nNKMvs7EkYkntOQ-v9cYbgsQwfDKUZyEsBTy4=w1658-h933-s-no?authuser=1",
+            "https://lh3.googleusercontent.com/pw/AIL4fc9vRDwowPYgM8Uk7cJAyXCy_XMwH0uFeg8lM4le1yCOcqGbCslUe7HjhsLl4biVfj0Xum6WRLaSVL5_s4gvTGN238dhzLAjHukwUaLQ--xJrSHjN_yysko7k3ZyHOaBX-CRN2AioU7DbDfASLZMydc=w1919-h933-s-no?authuser=1",
+            "https://lh3.googleusercontent.com/pw/AIL4fc-0WDlCQ2tzsvoelI725VvNj5lvEX6H2RLMTwgtW9PZh2NVeT0s4hC4Vcu94MpMmCcG1uHmsO3NFql91bLy0MhTWPgtA1ZktylJvtDP1WrED10j-WzDYKBbJyLi5OOhOBvVfdsuKgQBm4TRK1TsxXc=w1658-h933-s-no?authuser=1"
+        ],
+        "link": "https://multiscreen-controller.vercel.app/",
+        "repo": "#"
     }
 }
