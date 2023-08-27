@@ -55,6 +55,7 @@ const SectionAbout = () => {
                     <li>TypeScript</li>
                     <li>React</li>
                     <li>Redux</li>
+                    <li>NextJS</li>
                     <li>React Native</li>
                     <li>Expo </li>
                     <li>GIT</li>
