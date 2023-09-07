@@ -3,13 +3,23 @@
         width: 70%;
         margin: 0 auto;
         margin-top: 270px;
+         .about_skills {
+        ul {
+            grid-template-columns: 1fr 1fr; 
+            // grid-template-rows: 1fr 1fr 1fr; 
+            width: 70%;
+            margin: 0 auto;
+            // text-align: center;
+        }
+    }
     }
 }
 
 @media(max-width:950px) {
     #section_about {
         width: 95%;
-    }
+       
+}
 }
 
 @media(max-width: 750px) {
@@ -33,13 +43,18 @@
                 margin-top: 20px;
             }
         }
-        .about_skills {
-            ul {
-                grid-template-columns: 1fr 1fr 1fr; 
-                grid-template-rows: 1fr 1fr 1fr 1fr; 
-            }
+    }
+}
+
+@media(max-width: 580px) {
+    #section_about {
+         .about_skills {
+        ul {
+            grid-template-columns: 1fr; 
+            text-align: center;
         }
     }
+}
 }
 
 @media(max-width: 415px) {

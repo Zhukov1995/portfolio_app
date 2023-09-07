@@ -48,20 +48,22 @@ const SectionAbout = () => {
             <div className='about_skills'>
                 <h2>Мой технологический стек:</h2>
                 <ul>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>SASS/LESS</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>NextJS</li>
-                    <li>React Native</li>
-                    <li>Expo </li>
-                    <li>GIT</li>
-                    <li>Eslint</li>
-                    <li>Photoshop</li>
-                    <li>Figma</li>
+                    <li>CSS 10/10</li>
+                    <li>HTML 10/10</li>
+                    <li>SASS/LESS 8/10</li>
+                    <li>Bootstrap 7/10</li>
+                    <li>JavaScript 9/10</li>
+                    <li>TypeScript 7/10</li>
+                    <li>React 9/10</li>
+                    <li>Redux 9/10</li>
+                    <li>NextJS 6/10</li>
+                    <li>React Native 3/10</li>
+                    <li>Expo 3/10</li>
+                    <li>GIT 8/10</li>
+                    <li>Webpack 5/10</li>
+                    <li>REST API 8/10</li>
+                    <li>Photoshop 5/10</li>
+                    <li>Figma 5/10</li>
                 </ul>
             </div>
         </motion.section>
