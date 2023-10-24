@@ -56,6 +56,7 @@ const SectionAbout = () => {
                     <li>TypeScript 7/10</li>
                     <li>React 9/10</li>
                     <li>Redux 9/10</li>
+                    <li>GraphQL 3/10</li>
                     <li>NextJS 6/10</li>
                     <li>React Native 3/10</li>
                     <li>Expo 3/10</li>
