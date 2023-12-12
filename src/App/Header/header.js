@@ -1,5 +1,5 @@
 import Navigation from '../Navigation/navigation';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { MBurger } from '../UI/Burger/burger';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
@@ -14,6 +14,7 @@ const Header = () => {
     const [oldScrollPosition,setOldScrollPosition] = useState(0);
     const [flagPosition,setFlagPosition] = useState(true);
     const dispatch = useDispatch();
+    const imgRef = useRef(null);
   
     // отслеживаем событие скрола,чтобы скрывать header, когда он не нужен
     window.onscroll = () => {
@@ -28,6 +29,7 @@ const Header = () => {
             setFlagPosition(false);
         }
         setOldScrollPosition(scrollTopPosition)
+        setTimeout(() => {imgRef.current.style.transform=`rotate(${scrollTopPosition / 2}deg)`},0)
     }
     
     const classHeader = flagPosition ? "header" : "header header_hidden";
@@ -57,6 +59,7 @@ const Header = () => {
                     variants={headerAnimation} 
                     custom={2} 
                     onClick={() => dispatch(setTopPosition(0))}
+                    ref={imgRef}
                 />
             </Link>
             <MBurger variants={headerAnimation} custom={2}/>
