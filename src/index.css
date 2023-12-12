@@ -6,6 +6,11 @@
 body {
   margin: 0;
   background-color: #0a192f;
+  cursor: url(../public/images/custom_cursor.svg), default;
+}
+
+a {
+  cursor: url(../public/images/custom_hand.svg), default;
 }
 
 

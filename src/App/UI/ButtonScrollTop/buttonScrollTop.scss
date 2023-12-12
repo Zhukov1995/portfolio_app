@@ -8,7 +8,7 @@
     top: 90vh;
     right: 30px;
     z-index: 50;
-    cursor: pointer;
+    cursor: url(../../../../public/images/custom_hand.svg), default;
     img {
         width: 30px !important;
         height: 30px !important;

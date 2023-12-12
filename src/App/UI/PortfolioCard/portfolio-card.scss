@@ -5,7 +5,7 @@
     padding: 25px;
     box-sizing: border-box;
     position: relative;
-    cursor: pointer;
+    cursor: url(../../../../public/images/custom_hand.svg), default;
     img {
         width: 50px;
     }
