@@ -1,4 +1,4 @@
-import MyPhoto from './my-photo.jpg';
+import MyPhoto from './photo_my.jpg';
 import Title from '../../../../UI/Title/title';
 import { motion } from 'framer-motion';
 import './sectionAbout.scss';

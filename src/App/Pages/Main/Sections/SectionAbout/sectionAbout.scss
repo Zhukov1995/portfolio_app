@@ -12,17 +12,16 @@
             }
         }
         .wrapper_img {
-            height: 250px;
+            height: 334px;
             z-index: 2;
             margin-top: 20px;
-            border-radius: 5px;
             background-color: #4cfbd2d8;
+            border-radius: 10px;
             .about_img {
                 display: inline;
                 width: 250px;
                 height: auto;
-                max-height: 250px;
-                border-radius: 5px;
+                border-radius: 10px;
                 z-index: 1;
                 opacity: 0.6;
             }
