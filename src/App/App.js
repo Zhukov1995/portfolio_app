@@ -7,6 +7,7 @@ import Loading from './UI/Loading/loading';
 import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
 import './App.scss';
+import './snow.css';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -38,6 +39,38 @@ function App() {
         <Footer/>
     </div>
     }
+    <div className="snowflakes" aria-hidden="true">
+      <div className="snowflake">
+      ❅
+      </div>
+      <div className="snowflake">
+      ❅
+      </div>
+      <div className="snowflake">
+      ❆
+      </div>
+      <div className="snowflake">
+      ❄
+      </div>
+      <div className="snowflake">
+      ❅
+      </div>
+      <div className="snowflake">
+      ❆
+      </div>
+      <div className="snowflake">
+      ❄
+      </div>
+      <div className="snowflake">
+      ❅
+      </div>
+      <div className="snowflake">
+      ❆
+      </div>
+      <div className="snowflake">
+      ❄
+      </div>
+    </div>
     </>
   );
 }
