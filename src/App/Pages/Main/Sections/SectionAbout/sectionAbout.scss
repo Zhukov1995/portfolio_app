@@ -11,26 +11,11 @@
                 width: 90%;
             }
         }
-        .wrapper_img {
-            height: 334px;
-            z-index: 2;
-            margin-top: 20px;
+        .about_img {
+            display: inline;
+            width: 250px;
+            height: auto;
             border-radius: 10px;
-            .about_img {
-                display: inline;
-                width: 250px;
-                height: auto;
-                border-radius: 10px;
-                z-index: 1;
-                opacity: 0.6;
-            }
-        }
-        
-        .wrapper_img:hover {
-            background-color: transparent;
-            .about_img {
-                opacity: 1;
-            }
         }
     }
     .about_learning {
