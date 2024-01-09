@@ -87,7 +87,7 @@
         "shortDescription": "Дашборд для компании Gravitel",
         "stack": ["react", "typescript", "GraphQL", "sass"],
         "description": "Дашборд с авторизацией и показателями для компании Gravitel.",
-        "features": "Данные берутся из GraphQL, при наведении на виджеты подсвечиваем разные результаты. Для неавторизованных пользователей страница /dashboard недоступна.",
+        "features": "Данные берутся из GraphQL, при наведении на виджеты подсвечиваются разные показатели. Для неавторизованных пользователей страница /dashboard недоступна.",
         "images": [
             "https://lh3.googleusercontent.com/pw/ABLVV85v8quEuxSx0U61gTdRfy_rfYtmsY5ZrOhAIXYOunb2AGuwUSf2IrAUVzS2aVDBb35c8GKDZ7zsLfldCOcwsSK1R4JbQOw1UsvgVgn8yGNUgBHr_UxQioPUejsgse7L17jGQG_968Ikf4BsgEuvCvg=w1893-h912-s-no-gm?authuser=0",
             "https://lh3.googleusercontent.com/pw/ABLVV850zLbC3QjNwNoEeX82S_KbhOKzyoulsr1AwdnSkNv5S6IMn4YZvH67IwiARVbKW3YSVVB89CCSyhSKjwoQdGS_5ElLoVpgb5iLnvgTbBZEcipv0s4LnvfDDb5UIC7B1itcftI-F6gewWZD1bHgJkM=w1898-h912-s-no-gm?authuser=0",
