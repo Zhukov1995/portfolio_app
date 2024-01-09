@@ -82,22 +82,21 @@
         "link": "https://fortune-wheel-lake.vercel.app/",
         "repo": "https://github.com/Zhukov1995/fortune-wheel"
     },
-    "Лендинг":{
-        "title": "Лендинг",
-        "shortDescription": "Адаптивный лендинг",
-        "stack": ["javascript", "css", "html"],
-        "description": "Данный сайт был написан для того, чтобы показать, что я умею делать адаптив.",
-        "features": "Функционала в нем нет.",
+    "Дашборд Gravitel":{
+        "title": "Дашборд Gravitel",
+        "shortDescription": "Дашборд для компании Gravitel",
+        "stack": ["react", "typescript", "GraphQL", "sass"],
+        "description": "Дашборд с авторизацией и показателями для компании Gravitel.",
+        "features": "Данные берутся из GraphQL, при наведении на виджеты подсвечиваем разные результаты. Для неавторизованных пользователей страница /dashboard недоступна.",
         "images": [
-            "https://lh3.googleusercontent.com/pw/AMWts8B7RyX2kdHhvfTtFFWAQfLCI38f-6pPAK9qPGzbJtY3DJynHAbvMIhfWja87Nqx95Q51iaTLDMfpXU4VwWrvYQTE5yADnt03bZ9Cql_R-Shv7NsrL1tSqU67cTZPBtLHrRIb_qtwWoSvJpUtOgEhgI=w1918-h933-s-no?authuser=0",
-            "https://lh3.googleusercontent.com/pw/AMWts8CqqIdsV9wWrWBwql9a-LGetgwtoTGx9eeXyOvI9huDTB__pDt6PG4D1ZLIyeRLPxE951vXUYGdku67H5wjhDHip8sU6s5RIiOZtV9UAIt4G59VxzH-yyRXUrOBtAc74lGXZo2k4QLRK9yM8x-Dg6U=w1919-h933-s-no?authuser=0",
-            "https://lh3.googleusercontent.com/pw/AMWts8DeqYC2YcRIlnujMkkysA6h8VZQ-e1H0zRw_WeNgXKgIBSvmjTu_KCBMXkK3J7WBJxf05fq_1euI2FSuvtkgRCSAM7MxMqiZXcYk8zTzuG6ZMuXiVqzC6RmfFXasEq-Ui4DIe-hygwZLdZjWKQM0Tw=w1920-h927-s-no?authuser=0",
-            "https://lh3.googleusercontent.com/pw/AMWts8CwYi1JufP-vrAWXyhP8QWAxMdEA-A6fXhHFmf20QX2e2dbmGBCOEPAsd56AVggV6C3unc18_ySkJ6rk-dm_TT29XTYT1Nx6T4OjpDACjFg7Vp73HmIk0v1agBBhvAeFsP5uXmAmbZq2Ok8mHkcCRQ=w1918-h929-s-no?authuser=0",
-            "https://lh3.googleusercontent.com/pw/AMWts8D0qDzqpOkl5WXgPf09spkajvo4g9Mbk9cAzrDi6dnu6D4o6N2waIXUC03dlQcQJ4AfgVUmEpUxZszpqbkQyeWsDWeXbe7dtBLLlY_vPlewvukeGoJmPPWpPwhKoC7PUP7zMC6l8tkmb9tTe7jfitw=w1920-h928-s-no?authuser=0",
-            "https://lh3.googleusercontent.com/pw/AMWts8AAgmYWCny0HGHZsca3rsd-BW0GrbxlTi2n7jkLqoYfxyKt7MnT468itG3hqgcg2Xa9_Fxt9XK7plaXmQmVCBUSgLw5OOLC2x03RWLZfLL7EJ-EI9txkku4C88OQjDDhk1mEhYYskq4RPc-5rETQA8=w1918-h928-s-no?authuser=0"
+            "https://lh3.googleusercontent.com/pw/ABLVV85v8quEuxSx0U61gTdRfy_rfYtmsY5ZrOhAIXYOunb2AGuwUSf2IrAUVzS2aVDBb35c8GKDZ7zsLfldCOcwsSK1R4JbQOw1UsvgVgn8yGNUgBHr_UxQioPUejsgse7L17jGQG_968Ikf4BsgEuvCvg=w1893-h912-s-no-gm?authuser=0",
+            "https://lh3.googleusercontent.com/pw/ABLVV850zLbC3QjNwNoEeX82S_KbhOKzyoulsr1AwdnSkNv5S6IMn4YZvH67IwiARVbKW3YSVVB89CCSyhSKjwoQdGS_5ElLoVpgb5iLnvgTbBZEcipv0s4LnvfDDb5UIC7B1itcftI-F6gewWZD1bHgJkM=w1898-h912-s-no-gm?authuser=0",
+            "https://lh3.googleusercontent.com/pw/ABLVV84pJ0YDUgQMWKHjrZjsZrtoJpCVQG2SAZZCBunN6VCArtBegyr5pwMrVxjpUPcnGBNp13uUu0LUyWPp9lLk0q-B0cBDFGxqa0eJNvpBpVggXVGPfyxHZ4KYmwO7GLLX0knQmRZWqqFGCVPAZNJGX0M=w1892-h912-s-no-gm?authuser=0",
+            "https://lh3.googleusercontent.com/pw/ABLVV87BnS5Lu9cW9qVT41hW8IV9XWJSPPFF6iihvnf-fOKoBWCLuC-IfVo2TzCywun-pL7Lkum2PVXUAwjhhZQFOwy5bQ5dRqfxRfDGxEEs_jcpMspIj-4yd5g3sXOnX10fAEWtmgvA0LDWlRx0s-_RAW8=w1920-h910-s-no-gm?authuser=0",
+            "https://lh3.googleusercontent.com/pw/ABLVV850iWtU-O1OAp3vVIZhp6AdXAmgFcmk7Mam9A7eOagxKPprzz1-6almLBMGQJtYL1jlR0OtwvreydQc8709VTgRfdMgIbSSbGQ_nNzVxcSEokq1Ihl_g1XEWnXc7IbyoAJN3kADV5KbfyNlk1TAqmk=w1920-h908-s-no-gm?authuser=0"
         ],
-        "link": "https://zhukov1995.github.io/landing/",
-        "repo": "https://github.com/Zhukov1995/landing"
+        "link": "#",
+        "repo": "https://github.com/Zhukov1995/authorization"
     },
     "Стрелочные часы": {
         "title": "Стрелочные часы",
