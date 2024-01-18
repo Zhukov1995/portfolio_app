@@ -88,7 +88,7 @@ const Navigation = () => {
             </motion.div>
             <motion.div variants={navAnimation} custom={9} className='nav_wrapper_link'>
                 <ButtonLink
-                    href='https://disk.yandex.ru/i/kVo5hunu9QK6PA'
+                    href='https://disk.yandex.ru/d/l3sE9P6PqN7rgA'
                     text='Резюме'
                     size='sm'
                 />
