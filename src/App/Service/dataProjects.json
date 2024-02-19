@@ -49,21 +49,19 @@
         "link": "https://react-marvel-app-nu.vercel.app/",
         "repo": "https://github.com/Zhukov1995/react-marvel-app"
     },
-    "Сотрудники Компании": {
-        "title": "Сотрудники Компании",
-        "shortDescription": "Учет Сотрудников Компании",
-        "stack": ["react"],
-        "description": "Сайт помогает нам вести учет сотрудников компании. Мы можем добавлять сотрудников, фиксировать премию, фиксировать кто пойдет на повышение в этом месяце, а так же если кто то уволился удалить сотрудника. Есть возможность поиска по имени, фильтрации по разным параметрам.",
-        "features": "Если под проект написать backend, добавить личный кабинет и базу данных, то это может быть вполне полезное приложение.",
+    "Дашборд": {
+        "title": "Дашборд",
+        "shortDescription": "Аналитический дашборд",
+        "stack": ["javascript", "html", "css", "papaparse", "spin"],
+        "description": "Стильный и практичный дашборд, загружает данные из CSV файлов и обрабатывает их с помощью различной логики",
+        "features": "Пока не обнаружил.",
         "images": [
-            "https://lh3.googleusercontent.com/pw/AMWts8CHCqpgLyNaKmLLusoi7McTW0LSI3h4ednwYeHqFHMi6GTAZSy3sFd1jGc-5d0aCR7IZ6RvC-0FYk6cM4NUDCJpRfiKTr-_RQbYvePbdfJGazPp8nrk08ntpSw75nYv1N2iG9ke8SqjaxTyDQnlJFE=w1918-h915-s-no?authuser=0",
-            "https://lh3.googleusercontent.com/pw/AMWts8Dvi9mjMN49HwL3ABUlSs6ga5AzlNxMEQUMDCeVz0906EVMfDyG7CMqAQkAhQf1lwc7lSKzVjUdnG8-pe67FSkFFnQBSEJ6ATKyYbDURTztJFStacHClXn_TYGWsTW6KJIyFCkPIRMKRIUoIq2Q6Ng=w1916-h930-s-no?authuser=0",
-            "https://lh3.googleusercontent.com/pw/AMWts8BKmchoq7SuoXqPnAExHIKlFP91aqRand4lqVQV999PXeEH1_CuOkicVZtvDDu7TjqT7Rz8CAkNAy4t-LNwhZWCJU6Ki4ImitY2xeXjTAw1qI2M1yEJthcA4Hl93w-5OPFuxvgpEm1bv9tEqROC5VQ=w1920-h918-s-no?authuser=0",
-            "https://lh3.googleusercontent.com/pw/AMWts8ByGI0d-1G9i2UCszqkamy0C-98ly8GcHgXOd-KvDQjn7L2aRP8ckwdFOZNom6MBQEsan9lxPnz90-olQPysffY5UzI7mtFw36chE_YiTcgwS0YC0qUpZRP7yu_00WEejECpdeUMMiSxnhcno97xec=w1916-h930-s-no?authuser=0",
-            "https://lh3.googleusercontent.com/pw/AMWts8BQ-TzHX7mBdsK62Jg3SBjoyAKAaeiBYWulpdWG49oRVc7h-Bt_i47NIAzML-OewRMHYnhVME7EcmznYE727TeDdJ61wED0VZwdUPAlCIUjGqcwjUL4CE73Q7cBXdZuVI8_ae5SpoYLyENEd9zAfw4=w1916-h923-s-no?authuser=0"
+            "https://lh3.googleusercontent.com/pw/ABLVV86QU5MFGQO9K9Ayxunp5zQlVbes0hXoHPXKHODJ1Un6-ixd9Bk9oWlcLrnmGK5QSkwKo_NkaG-NoNLhZZ_TkpMtTor4WEBcK2d-h15IqnmE2H5jrayU4aQk3jWJOAHipi3At9w2oaqpwyzliWrzOXY=w1918-h912-s-no-gm?authuser=1",
+            "https://lh3.googleusercontent.com/pw/ABLVV84a7iyXeSsREXQoOTYwjyaU8qxrWXAqMguDFOMUa2-ZjmnbCWMC1H6dgTj1C9uAybrNgruA6o5GMaXDH1yISv-lmZdJV71FgvNGs-jyc1pEtNwisV5MHpth07u2DgmekK_uF82nvLBdkoTwqWg1V60=w1920-h907-s-no-gm?authuser=1",
+            "https://lh3.googleusercontent.com/pw/ABLVV84UThXzdk4O_vjsZwyhoXdjJwZLvJvZfMEQ7tLYR-ay81-wYzPFxt3Tbh-mj8URyYA-jJnPyT79Aup4hSr0_UBOdgI21TtRoOt6uaqm0zCkvC3J37dABXgdzukE5f989tiawXne1ch7iPYOHHQxpyo=w1917-h907-s-no-gm?authuser=1"
         ],
-        "link": "https://employees-template-kb67.vercel.app/",
-        "repo": "https://github.com/Zhukov1995/employees_template"
+        "link": "https://dashboard-1-xi.vercel.app/",
+        "repo": "https://github.com/Zhukov1995/dashboard_1"
     },
     "Колесо фортуны": {
         "title": "Колесо фортуны",
@@ -87,7 +85,7 @@
         "shortDescription": "Дашборд для компании Gravitel",
         "stack": ["react", "typescript", "GraphQL", "sass"],
         "description": "Дашборд с авторизацией и показателями для компании Gravitel.",
-        "features": "Данные берутся из GraphQL, при наведении на виджеты подсвечиваются разные показатели. Для неавторизованных пользователей страница /dashboard недоступна.",
+        "features": "Данные берутся из GraphQL, при наведении на виджеты подсвечиваются разные показатели. Для неавторизованных пользователей страница /dashboard недоступна. Данные для авторизации: login: UserOne password: pass",
         "images": [
             "https://lh3.googleusercontent.com/pw/ABLVV85v8quEuxSx0U61gTdRfy_rfYtmsY5ZrOhAIXYOunb2AGuwUSf2IrAUVzS2aVDBb35c8GKDZ7zsLfldCOcwsSK1R4JbQOw1UsvgVgn8yGNUgBHr_UxQioPUejsgse7L17jGQG_968Ikf4BsgEuvCvg=w1893-h912-s-no-gm?authuser=0",
             "https://lh3.googleusercontent.com/pw/ABLVV850zLbC3QjNwNoEeX82S_KbhOKzyoulsr1AwdnSkNv5S6IMn4YZvH67IwiARVbKW3YSVVB89CCSyhSKjwoQdGS_5ElLoVpgb5iLnvgTbBZEcipv0s4LnvfDDb5UIC7B1itcftI-F6gewWZD1bHgJkM=w1898-h912-s-no-gm?authuser=0",
@@ -95,7 +93,7 @@
             "https://lh3.googleusercontent.com/pw/ABLVV87BnS5Lu9cW9qVT41hW8IV9XWJSPPFF6iihvnf-fOKoBWCLuC-IfVo2TzCywun-pL7Lkum2PVXUAwjhhZQFOwy5bQ5dRqfxRfDGxEEs_jcpMspIj-4yd5g3sXOnX10fAEWtmgvA0LDWlRx0s-_RAW8=w1920-h910-s-no-gm?authuser=0",
             "https://lh3.googleusercontent.com/pw/ABLVV850iWtU-O1OAp3vVIZhp6AdXAmgFcmk7Mam9A7eOagxKPprzz1-6almLBMGQJtYL1jlR0OtwvreydQc8709VTgRfdMgIbSSbGQ_nNzVxcSEokq1Ihl_g1XEWnXc7IbyoAJN3kADV5KbfyNlk1TAqmk=w1920-h908-s-no-gm?authuser=0"
         ],
-        "link": "#",
+        "link": "https://gravitel.vercel.app/dashboard",
         "repo": "https://github.com/Zhukov1995/authorization"
     },
     "Стрелочные часы": {
