@@ -13,35 +13,31 @@ const SectionWork = () => {
         visible: custom => ({
             y: 0,
             opacity: 1,
-            transition: { delay: custom * 0.2}
+            transition: { delay: custom * 0.2 }
         })
     }
 
 
     return (
-        <motion.section 
+        <motion.section
             initial="hidden"
             whileInView="visible"
-            viewport={{once: true}}
+            viewport={{ once: true }}
             variants={WorkAnimation}
             custom={1}
             id='section_work'
         >
-            <Title number='02.' title='Опыт работы'/>
+            <Title number='02.' title='Опыт работы' />
             <div className='work_item'>
                 <h3>Индивидуальное предпринимательство / фриланс биржа</h3>
                 <span>Сентябрь 2021 - Июнь 2022</span>
                 <p>Разрабатывал сайты, новые фитчи, а также исправлял баги для заказчиков. Работал в основном на своем стеке. Под некоторые заказы нужно было изучать новые технологии.
-                Так же писал скрипты под Tilda, Wordpress, Webflow.</p>
+                    Так же писал скрипты под Tilda, Wordpress, Webflow.</p>
             </div>
             <div className='work_item'>
                 <h3>Фронтенд разработчик в компании Techpeople</h3>
                 <span>Август 2022 - по настоящее время</span>
                 <p>Разрабатываю кастомные дашборды, виджеты, графики, таблицы для BI клиентов на базе платформы Visiology, и пишу полноценные приложения на React.</p>
-            </div>
-            <div className='work_item'>
-                <h3>Иной опыт</h3>
-                <p>Ранее работал в ресторанной сфере.В основном на позиции бармена.Работал за контактной стойкой,переодически заменял менеджеров,занимался закупками.</p>
             </div>
         </motion.section>
     )
